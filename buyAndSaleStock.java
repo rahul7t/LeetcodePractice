@@ -9,7 +9,7 @@ class buyAndSaleStock {
     }
 
     public static void main(String[] args){
-        Solution obj = new Solution();
+        buyAndSaleStock obj = new buyAndSaleStock();
         int[] prices = {7,1,5,3,6,4};
         System.out.println("Max profit: "+obj.maxProfit(prices));
     }
